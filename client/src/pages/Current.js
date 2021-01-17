@@ -141,6 +141,7 @@ function Current() {
     }
 
     return (
+        <div className="background-img">
         <div className="container">
             <h3 className="center-align">Stocks Currently Invested In</h3>
             <br />
@@ -199,6 +200,7 @@ function Current() {
                     />
                 ))}
             </div>
+        </div>
         </div>
     )
 }
